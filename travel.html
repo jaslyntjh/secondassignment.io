@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+    }
+
+    html *
+    {
+   font-family: Georgia, 'Times New Roman', Times, serif !important;
+    }
+
+    body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <title>Tan Jia Hui's Hobbies</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #bcd2e2;">
+        <a class="navbar-brand" href="index.html">About Me</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="mahjong.html">Mahjong</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Food</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="travel.html">Travel</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="travel_cover.png" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <a class="btn btn-info" href="#T1" role="button"><h5>Countries I've Visited</h5>
+                </a>
+                <a class="btn btn-outline-light" href="#T2" role="button"><h5>My Bucketlist</h5>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 style="text-align:center; padding-top:30px; margin-bottom:30px">
+        Europe Trip 2019: Italy, Switzerland & France
+      </h1>
+
+      <blockquote style="margin-top:30px; margin-bottom:30px;" class="blockquote text-center">
+        <p class="mb-0"><i>"Wanderlust: (n.) a strong desire for or impulse to wander or travel and explore the world"</i>
+        </p>
+      </blockquote>
+
+      <hr width="500px">
+
+      <a class="anchor" id="T1"></a>
+
+      <h4 style="text-align: center;">
+        Italy
+      </h4>
+
+     <div class="text-center">
+        <img style="width:500px" src="travel_italy.JPG" class="rounded" alt="italy">
+       </div>      
+
+       <p style="text-align:justify; font-size:20px; margin-top:60px; margin-bottom:60px; margin-left:300px; margin-right:300px;">
+The land where pasta was birthed. Had pasta every single day for every meal and I still couldn't get enough of it! One thing that I learned from that trip was to not make any plans on public holiday. The only way you could get around was ON FOOT. We travelled from Rome to Florence before ending the Italy trip at Venice.      </p>
+
+      <hr width="1000px">
+      <h4 style="text-align: center;">
+          Switzerland
+      </h4>
+
+      <div class="text-center">
+        <img style="width:1000px" src="travel_switz2.png" class="rounded" alt="switz2">
+      </div>
+
+      <p style="text-align:justify; font-size:20px; margin-top:60px; margin-bottom:60px; margin-left:300px; margin-right:300px;">
+We took a 6-hour high speed train from Venice to Switzerland, Interlaken. Over there, we were greeted with the Swiss alps and snow-capped mountains every morning, and visited the Top of Europe - which was simply breathtaking and intensely cold. Not only was the food there expensive, it only tasted mediocre, and we resorted to korean instant noodles for $5 Singapore Dollars from an Asian supermarket. We also had our first attempt at skiing with the alps surrounding us, which was not a very pleasant experience as we fell more than we skiied, but the sights ultimately compensated for that.</p>
+
+      <hr width="1000px">
+      <h4 style="text-align: center;">
+          France
+      </h4>
+
+      <div class="text-center">
+        <img style="width:1000px" src="travel_switz2.png" class="rounded" alt="france">
+      </div>
+
+      <p style="text-align:justify; font-size:20px; margin-top:60px; margin-bottom:60px; margin-left:300px; margin-right:300px;">
+Bonjour Monsieur/Mademoiselle! Comment-allez vous? As this was our last stop of our Europe tour, we were already very exhausted from all the packing and moving about. We decided that we needed a comfortable place to stay at Paris and be surrounded by good food. One funny thing is that instead of going for the local cuisine, we ended up eating asian cuisine for almost every meal. The only local thing that we liked is probably the croissants.       </p>
+      
+      <hr>
+
+      <a class="anchor" id="T2"></a>
+
+      <h2 style="text-align:center">Travel Bucketlist</h2>
+
+      <div class="container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+          <img src="travel_1.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+          <img src="travel_2.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+          <img src="travel_3.png" style="width:100%">
+        </div>
+          
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+          <img src="travel_4.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+          <img src="travel_5.png" style="width:100%">
+        </div>
+          
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+          <img src="travel_6.png" style="width:100%">
+        </div>
+          
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="travel_1.png" style="width:100%" onclick="currentSlide(1)" alt="Germany">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="travel_2.png" style="width:100%" onclick="currentSlide(2)" alt="Australia">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="travel_3.png" style="width:100%" onclick="currentSlide(3)" alt="New Zealand">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="travel_4.png" style="width:100%" onclick="currentSlide(4)" alt="Bali">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="travel_5.png" style="width:100%" onclick="currentSlide(5)" alt="Norway">
+          </div>    
+          <div class="column">
+            <img class="demo cursor" src="travel_6.png" style="width:100%" onclick="currentSlide(6)" alt="Maldives">
+          </div>
+        </div>
+      </div>
+      
+
+      <p style="text-align:justify; font-size:20px; margin-top:60px; margin-bottom:60px; margin-left:300px; margin-right:300px;">
+These are the place I hope that I can travel to in the next few years. But sigh, COVID!       </p>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>      
+</body>
+</html>
